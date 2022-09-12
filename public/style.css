@@ -1,0 +1,22 @@
+body {
+	background-image: url("https://github.com/koraynilay/linux-wallpapers/blob/master/sweet/landscape_sweet_dark_blur.png?raw=true");
+}
+
+@font-face {
+    font-family: "Tw Cen MT" !important;
+    font-size: 16px;
+    src: url("https://github.com/koraynilay/linux-wallpapers/blob/master/tw-cen-mt-1361501946.ttf?raw=true") format('truetype');
+    /*color:#ffffff;*/
+    /*image-rendering: pixelated;*/
+}
+
+#bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
