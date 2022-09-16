@@ -8,11 +8,11 @@ body {
 }
 
 @font-face {
-    font-family: "Tw Cen MT" !important;
-    font-size: 16px;
-    src: url("https://github.com/koraynilay/linux-wallpapers/blob/master/tw-cen-mt-1361501946.ttf?raw=true") format('truetype');
-    /*color:#ffffff;*/
-    /*image-rendering: pixelated;*/
+	font-family: "Tw Cen MT" !important;
+	font-size: 16px;
+	src: url("https://github.com/koraynilay/linux-wallpapers/blob/master/tw-cen-mt-1361501946.ttf?raw=true") format('truetype');
+	/*color:#ffffff;*/
+	/*image-rendering: pixelated;*/
 }
 
 /*#everything {
@@ -21,34 +21,45 @@ body {
 }
 */
 
+.float_container {
+	display: flex;
+}
+
+.float_child {
+	flex-grow: 1;
+	float: left;
+	margin-left: 40px;
+}
+
 #bg{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	min-width: 100%;
+	min-height: 100%;
+	object-fit: cover;
 }
 
 .info {
-    text-align: left;
-    list-style: square outside;
-    margin-left: 20px;
-    padding-left: 0;
+	text-align: left;
+	list-style: square outside;
 }
 
-#desc {
-	width: 40%;
-	margin: auto;
+/*#desc {
+	padding: 1px;
+}*/
+
+ul {
+	padding-inline-start: 22px;
 }
 
-#pc {
-    mix-blend-mode: revert;
-}
+/*#pc {
+	mix-blend-mode: revert;
+}*/
 
 .info-name {
-    color: red;
+	color: red;
 }
 
 #avatar {
