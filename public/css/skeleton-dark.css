@@ -90,6 +90,11 @@ html {
   color-scheme: dark;
 }
 body {
+  background-image: url("../images/landscape_sweet_dark_blur.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
