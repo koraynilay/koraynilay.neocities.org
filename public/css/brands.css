@@ -72,6 +72,7 @@ button:hover,
   vertical-align: middle;
   width: 20px;
   height: 20px;
+  object-fit: contain;
 }
 
 /* Brand Styles
@@ -1005,3 +1006,85 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* VNDB */
+.button.button-vndb {
+  color: #ffffff;
+  background-color: #d98659;
+}
+.button.button-vndb:hover,
+.button.button-vndb:focus {
+  filter: brightness(90%);
+}
+
+/* MAL (MyAnimeList) */
+.button.button-mal {
+  color: #ffffff;
+  background-color: #2e51a2;
+}
+.button.button-mal:hover,
+.button.button-mal:focus {
+  filter: brightness(90%);
+}
+
+/* E-mail */
+.button.button-email {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-email:hover,
+.button.button-email:focus {
+  filter: brightness(90%);
+}
+
+/* Osu! */
+.button.button-osu {
+  color: #ffffff;
+  background-color: #f062a1;
+}
+.button.button-osu:hover,
+.button.button-osu:focus {
+  filter: brightness(90%);
+}
+
+/* MonkeyType */
+.button.button-monkeytype {
+  color: #f5b1cc;
+  background-color: #091f2c;
+}
+.button.button-monkeytype:hover,
+.button.button-monkeytype:focus {
+  filter: brightness(90%);
+}
+svg:hover path {
+  fill: #fff;
+}
+
+/* Arch Linux/AUR */
+.button.button-aur {
+  color: #ffffff;
+  background-color: #333333;
+}
+.button.button-aur:hover,
+.button.button-aur:focus {
+  filter: brightness(90%);
+}
+
+/* Human Benchmark */
+.button.button-humanbenchmark {
+  color: #000000;
+  background-color: #ffffff;
+}
+.button.button-humanbenchmark:hover,
+.button.button-humanbenchmark:focus {
+  filter: brightness(90%);
+}
+
+/* Default (this is great for your own brand color!) */
+.button.button-timw {
+  color: #ffffff;
+  background: url("https://farm3.staticflickr.com/2444/4081217898_8d27f256ea_o.jpg");
+}
+.button.button-default:hover,
+.button.button-default:focus {
+  filter: brightness(90%);
+}
