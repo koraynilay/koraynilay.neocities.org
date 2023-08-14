@@ -6,126 +6,39 @@
     /*image-rendering: pixelated;*/
 }
 
-#bg{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
+#desc, #title {
+    color: white;
+    text-shadow: 1px 1px black;
 }
+/* glow preso da https://www.w3schools.com/cssref/css3_pr_text-shadow.php */
+/*
+#desc, #title {
+    color: #e8e6e3;
+    text-shadow: 1px 1px 4px #161925, 1px 1px 2px #c50ed2;
+}
+*/
 
+/* con bordo invece che ombra https://stackoverflow.com/a/13427256/12206923 */
+/*
 #desc {
-    float: left;
-    display: inline;
-}
+    color: white;
+    text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+                 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
 
-#custom-html, .nc-avatar, .sl-headline, .sl-subtitle {
-	order: -1; /*to have .desc on top, taken from https://www.notion.so/Customizing-your-Singlelink-profile-ab34c4a8e3174d66835fa460774e7432#:~:text=%23custom%2Dhtml%2C%20.nc%2Davatar%2C%20.sl%2Dheadline%2C%20.sl%2Dsubtitle%20%7B%0A%09order%3A%20%2D1%3B%0A%7D*/
 }
-#custom-html {
-    color: #ffffff;
-}
-.sl-item {
-    /*overflow-y: scroll;*/
-    box-shadow: 0 2px 5px rgba(0,0,0,.25);
-}
-/*.flex flex-col p-6 pt-8 pb-8 items-center text-center max-w-sm w-full {
-    overflow-y: scroll;
-}*/
-.links {
-    overflow-y:scroll;
-    float: right;
-    display: inline;
-}
-.nc-avatar {
-	transform: scale(1.5);
-    position: relative;
-    bottom: .5%;
-	/*border: solid 3px #FCFCFC;*/
-	box-shadow: 0 2px 5px rgba(0,0,0,.25);
-}
-.watermark {
-    /*color:#ffffff;*/
-    position: absolute;
-    bottom: 10px;
-    left:   20px;
-    font-size: 14px;
-}
-/*a {
-    color:#3391ff;
-    text-decoration: underline
-}*/
-.singlelink_link {
-    color:#3391ff;
-    text-decoration: underline;
-}
+*/
 
-/*#desc {
-    mix-blend-mode: difference;
-}*/
-
-.info {
+ul.info {
     text-align: left;
-    list-style: square outside;
-    margin-left: 20px;
-    padding-left: 0;
+    list-style: square inside;
+    padding-left: 0px;
 }
-
-#pc {
-    mix-blend-mode: revert;
+ul.info > li > ul.info {
+    text-align: left;
+    list-style: square inside;
+    padding-left: 30px;
 }
 
 .info-name {
     color: red;
 }
-
-/*body {
-    background-image: url("https://github.com/koraynilay/linux-wallpapers/blob/master/sweet/landscape_sweet_dark_blur.png?raw=true");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: cover;
-}*/
-
-/*@media only screen and (max-width: 1270px){
-    .img{
-        object-fit: none;
-    }
-}*/
-/* SL-NO-CODE */img.nc-avatar {
-	border: none;
-	box-shadow: null;
-}
-div.sl-bg {
-}
-body {
-	background-position: top left;
-	background-repeat: repeat;
-	background-size: contain;
-}
-h1.sl-headline {
-	font-weight: normal;
-	color: #ffffff;
-}
-h3.sl-subtitle {
-	color: #ffffff;
-	opacity: 1;
-}
-span.sl-label {
-	font-weight: bold;
-}
-span.sl-link-subtitle {
-	font-weight: normal;
-}
-div#user-profile-view section {
-}
-a div.sl-item.nc-link {
-	box-shadow: null;
-	border: none;
-	border-radius: 69px;
-}
-
-                        </style>
-                    
