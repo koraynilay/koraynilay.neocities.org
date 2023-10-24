@@ -1079,6 +1079,16 @@ svg:hover path {
   filter: brightness(90%);
 }
 
+/* ListenBrainz */
+.button.button-listenbrainz {
+  color: #353070;
+  background-color: #ffab87;
+}
+.button.button-humanbenchmark:hover,
+.button.button-humanbenchmark:focus {
+  filter: brightness(90%);
+}
+
 /* Default (this is great for your own brand color!) */
 .button.button-timw {
   color: #ffffff;
