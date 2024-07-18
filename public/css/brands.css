@@ -360,9 +360,8 @@ button:hover,
 
 /* GitHub */
 .button.button-github {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #FFFFFF;
+  color: #fafbfc;
+  background-color: #24292e;
 }
 .button.button-github:hover,
 .button.button-github:focus {
@@ -667,8 +666,8 @@ button:hover,
 
 /* Reddit */
 .button.button-reddit {
-  color: #000000;
-  background-color: #d7dfe2;
+  color: #fff;
+  background-color: #ff4500;
   border: 1px solid #212121;
 }
 .button.button-reddit:hover,
@@ -987,9 +986,11 @@ button:hover,
 
 /* YouTube */
 .button.button-yt {
+  /* colors from https://www.youtube.com/howyoutubeworks/resources/brand-resources/#logos-icons-and-colors
+   * "YouTube Brand Colors
+   */
   color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #FFFFFF;
+  background-color: #282828;
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
@@ -1055,9 +1056,15 @@ button:hover,
 .button.button-monkeytype:focus {
   filter: brightness(90%);
 }
-svg:hover path {
-  fill: #fff;
+/*
+ * changed it with:
+ * fill="#f5b1cc"
+ * in the svg itself
+ * won't work otherwise
+svg {
+  color: #f5b1cc;
 }
+*/
 
 /* Arch Linux/AUR */
 .button.button-aur {
@@ -1071,12 +1078,12 @@ svg:hover path {
 
 /* Human Benchmark */
 .button.button-humanbenchmark {
-  color: #000000;
-  background-color: #ffffff;
+  color: #2b87d1;
+  background-color: #fff;
 }
 .button.button-humanbenchmark:hover,
 .button.button-humanbenchmark:focus {
-  filter: brightness(90%);
+  color: #ff9345;
 }
 
 /* ListenBrainz */
@@ -1084,8 +1091,23 @@ svg:hover path {
   color: #353070;
   background-color: #ffab87;
 }
-.button.button-humanbenchmark:hover,
-.button.button-humanbenchmark:focus {
+.button.button-listenbrainz:hover,
+.button.button-listenbrainz:focus {
+  filter: brightness(90%);
+}
+
+/* League of Legends */
+/* colors taken from https://brand.riotgames.com/en-us/league-of-legends/color */
+.button.button-lol {
+  color: #A09B8C;
+  /*
+  color: #C89B3C;
+  background-image: linear-gradient(45deg, #091428, #ff00ff);
+  */
+  background-image: linear-gradient(45deg, #091428, #0A1428);
+}
+.button.button-lol:hover,
+.button.button-lol:focus {
   filter: brightness(90%);
 }
 
@@ -1096,5 +1118,18 @@ svg:hover path {
 }
 .button.button-default:hover,
 .button.button-default:focus {
+  filter: brightness(90%);
+}
+
+/* Geekbench */
+.button.button-geekbench {
+  color: #fff;
+  background-color: #2196f3;
+  /*
+  background-color: #212121;
+  */
+}
+.button.button-geekbench:hover,
+.button.button-geekbench:focus {
   filter: brightness(90%);
 }

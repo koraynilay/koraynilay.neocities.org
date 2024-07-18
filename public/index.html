@@ -89,7 +89,9 @@
 			<li>INTP 5w6 sp/sx</li>
 			<li>Italian/English/Japanese (kinda sus tho)</li>
 			<li>Birthday: 17/05</li>
-		</ul> PC: <ul class="info" id="pc">
+		</ul>
+		PC:
+		<ul class="info" id="pc">
 			<li>
 				<span class="info-name">OS:</span> Arch Linux x86_64, Windows 10 AME (rarely used)
 			</li>
@@ -98,7 +100,7 @@
 			</li>
 			<li>
 				<span class="info-name">Monitor:</span>
-				<ul class="info" id="storage">
+				<ul class="info" id="monitor">
 					<li>LG 24GN53A (24" 1920x1080 @ 144.00Hz)</li>
 					<li>Asus VA27EHE (27" 1920x1080 @ 60.00Hz)</li>
 				</ul>
@@ -130,6 +132,9 @@
 			<li>
 				<span class="info-name">Music Player:</span> mpd
 			</li>
+			<li>
+				<span class="info-name">Media server:</span> jellyfin (video and misc), navidrome (music)
+			</li>
 			<!--
 			<li>
 				<span class="info-name">Storage:</span> 12.7 TiB (total)
@@ -153,7 +158,80 @@
 				</ul>
 			</li>
 		</ul>
+		<a href="https://www.gsmarena.com/sony_xperia_10_iii-10698.php">Phone:</a>
+		<ul class="info" id="phone">
+			<li>
+				<span class="info-name">Model:</span> Sony Xperia 10 III (XQ-BT52)
+			</li>
+			<li>
+				<span class="info-name">OS:</span> Android 13
+			</li>
+			<li>
+				<span class="info-name">Terminal:</span> termux
+			</li>
+			<li>
+				<span class="info-name">Chipset:</span> Qualcomm Snapdragon 690 5G (SM6350)
+			</li>
+			<li>
+				<span class="info-name">CPU:</span>
+				<ul class="info" id="phone-cpu">
+					<li>6x Qualcomm Kryo 560 Silver @ 1708 MHz</li>
+					<li>2x ARM Cortex-A77 @ 2073 MHz</li>
+				</ul>
+			</li>
+			<li>
+				<span class="info-name">GPU:</span> Adreno 619
+			</li>
+			<li>
+				<span class="info-name">Camera:</span>
+				<ul class="info" id="phone-camera">
+					<li>12 MP, f/1.8, 27mm (wide), 1/2.8", PDAF</li>
+					<li>8 MP, f/2.4, 54mm (telephoto), 1/4.0", PDAF, 2x optical zoom</li>
+					<li>8 MP, f/2.2, 120˚, 16mm (ultrawide), 1/4.0"</li>
+				</ul>
+			<li>
+				<span class="info-name">Color:</span> Black
+			</li>
+			<li>
+				<span class="info-name">Battery:</span> 4500 mAh
+			</li>
+			<li>
+				<span class="info-name">Storage:</span> 128 GB
+			</li>
+		</ul>
+		<a href="https://psref.lenovo.com/Detail/ThinkPad_P14s_Gen_2_AMD?M=21A0004AIX">Laptop:</a>
+		<ul class="info" id="laptop">
+			<li>
+				<span class="info-name">OS:</span> Arch Linux x86_64
+			</li>
+			<li>
+				<span class="info-name">Host:</span> 21A0004AIX ThinkPad P14s Gen 2a
+			</li>
+			<li>
+				<span class="info-name">Shell:</span> zsh
+			</li>
+			<li>
+				<span class="info-name">Resolution:</span> 1920x1080
+			</li>
+			<li>
+				<span class="info-name">Terminal:</span> termite
+			</li>
+			<li>
+				<span class="info-name">CPU:</span> AMD Ryzen 7 PRO 5850U with Radeon Graphics (16) @ 4.507GHz
+			</li>
+			<li>
+				<span class="info-name">GPU:</span> AMD ATI Radeon Vega Series / Radeon Vega Mobile Series
+			</li>
+			<li>
+				<span class="info-name">RAM:</span> 16 GB DDR4 3200 MT/s
+			</li>
+			<li>
+				<span class="info-name">Storage:</span> 512 GB SSD (NVMe)
+			</li>
+		</ul>
 	</div>
+
+
 	<br />
 	<script type="text/javascript">
 		window.onload = () => {
@@ -192,63 +270,127 @@
         -->
 
         <!-- timw -->
-        <a class="button button-timw" href="http://www.timwmulti.altervista.org" target="_blank" rel="noopener" role="button">
+        <a class="button button-timw" href="http://www.timwmulti.altervista.org" rel="noopener" role="button">
 		<img class="icon" src="images/icons/logo-timw-2022.png" style="filter: invert(23%) sepia(90%) saturate(7071%) hue-rotate(1deg) brightness(93%) contrast(122%);" alt=""> <!-- https://codepen.io/sosuke/pen/Pjoqqp -->
 		<h3>T.I.M.Warfare Clan Homepage</h3>
 		<!-- <h5>subtitle</h5> -->
 	</a>
 	<br>
 
+	<div id="desc">
+		<h1>Get to know me/Games</h1>
+	</div>
+
+        <!-- ListenBrainz -->
+	<a class="button button-listenbrainz" href="https://listenbrainz.org/user/koraynilay/" rel="noopener" role="button">
+		<img class="icon" src="images/icons/listenbrainz.svg" alt="">
+		<h3>ListenBrainz</h3>
+		<h5>koraynilay</h5>
+	</a>
+	<br>
+
         <!-- vndb -->
-	<a class="button button-vndb" href="https://vndb.org/u199685" target="_blank" rel="noopener" role="button">
+	<a class="button button-vndb" href="https://vndb.org/u199685" rel="noopener" role="button">
 		<img class="icon" src="images/icons/vndb.ico" alt="">
 		<h3>VNDB</h3>
 		<h5>koraynilay</h5>
 	</a>
 	<br>
+        
+        <!-- Steam -->
+	<a class="button button-steam" href="https://steamcommunity.com/id/koraynilay/" rel="noopener" role="button">
+		<img class="icon" src="images/icons/steam.svg" alt="">
+		<h3>Steam</h3>
+		<h5>koraynilay</h5>
+	</a>
+	<br>
 
         <!-- MyAnimeList (MAL) -->
-	<a class="button button-mal" href="https://myanimelist.net/profile/koraynilay" target="_blank" rel="noopener" role="button">
+	<a class="button button-mal" href="https://myanimelist.net/profile/koraynilay" rel="noopener" role="button">
 		<img class="icon" src="images/icons/mal.png" alt="">
 		<h3>MyAnimeList</h3>
 		<h5>koraynilay</h5>
 	</a>
 	<br>
+
+        <!-- League of Legends -->
+	<a class="button button-lol" href="https://www.leagueofgraphs.com/summoner/euw/koraynilay-5698" rel="noopener" role="button">
+		<img class="icon" src="images/icons/LoL_Icon_Rendered_Hi-Res.png" alt="">
+		<h3>League of Legends</h3>
+		<h5>koraynilay#5698</h5>
+	</a>
+	<br>
+        
+        <!-- Monkeytype -->
+	<a class="button button-monkeytype" href="https://monkeytype.com/profile/koraynilay" rel="noopener" role="button">
+		<img class="icon" id="monkeysvg" src="images/icons/monkeytype.svg" alt="">
+		<h3>Monkeytype</h3>
+		<h5>koraynilay</h5>
+	</a>
+	<br>
+        
+        <!-- Osu!lazer -->
+	<a class="button button-osu" href="https://lazer.ppy.sh/users/12126492" rel="noopener" role="button">
+		<img class="icon" src="images/icons/lazer.png" alt="">
+		<h3>Osu! (but I play on osu!lazer)</h3>
+		<h5>koraynilay</h5>
+	</a>
+	<br>
+        
+        <!-- Human Benchmark -->
+	<a class="button button-humanbenchmark" href="https://humanbenchmark.com/users/5c91039f774f3442df37b0b2" rel="noopener" role="button">
+		<img class="icon" src="images/icons/humanbenchmark.png" alt="">
+		<h3>Human Benchmark</h3>
+		<h5>koraynilay</h5>
+	</a>
+	<br>
+
+        <!-- Geekbench -->
+	<a class="button button-geekbench" href="https://browser.geekbench.com/user/418749" rel="noopener" role="button">
+		<img class="icon" src="images/icons/geekbench.svg" alt="">
+		<h3>Geekbench</h3>
+		<h5>koraynilay</h5>
+	</a>
+	<br>
+
+	<div id="desc">
+		<h1>Contacts/Socials</h1>
+	</div>
+        
+        <!-- Telegram -->
+	<a class="button button-telegram" href="https://t.me/koraynilay" rel="noopener" role="button">
+		<img class="icon" src="images/icons/telegram.svg" alt="">
+		<h3>Telegram</h3>
+		<h5>koraynilay</h5>
+	</a>
+	<br>
+        
+        <!-- Twitter -->
+	<a class="button button-twit" href="https://twitter.com/koraynilay" rel="noopener" role="button">
+		<img class="icon" src="images/icons/twitter.svg" alt="">
+		<h3>Twitter</h3>
+		<h5>koraynilay</h5>
+	</a>
+	<br>
         
         <!-- Discord -->
-	<a class="button button-discord" onclick="copy('koraynilay')" target="_blank" rel="noopener" role="button">
+	<a class="button button-discord" onclick="copy('koraynilay')" rel="noopener" role="button">
 		<img class="icon" src="images/icons/discord.svg" alt="">
 		<h3>Discord</h3>
 		<h5>koraynilay</h5>
 	</a>
 	<br>
         
-        <!-- Steam -->
-	<a class="button button-steam" href="https://steamcommunity.com/id/koraynilay/" target="_blank" rel="noopener" role="button">
-		<img class="icon" src="images/icons/steam.svg" alt="">
-		<h3>Steam</h3>
-		<h5>koraynilay</h5>
-	</a>
-	<br>
-        
-        <!-- Github -->
-	<a class="button button-github" href="https://github.com/koraynilay" target="_blank" rel="noopener" role="button">
-		<img class="icon" src="images/icons/github.svg" alt="">
-		<h3>Github</h3>
-		<h5>koraynilay</h5>
-	</a>
-	<br>
-        
-        <!-- E-mail -->
-	<a class="button button-email" href="mailto:koray.fra@gmail.com" target="_blank" rel="noopener" role="button">
-		<img class="icon" src="images/icons/email.svg" alt="">
-		<h3>E-mail</h3>
-		<h5>koray.fra@gmail.com</h5>
+        <!-- Instagram -->
+	<a class="button button-instagram" href="https://www.instagram.com/koray_nilay/" rel="noopener" role="button">
+		<img class="icon" src="images/icons/instagram.svg" alt="">
+		<h3>Instagram</h3>
+		<h5>koray_nilay</h5>
 	</a>
 	<br>
         
         <!-- Reddit -->
-	<a class="button button-reddit" href="https://www.reddit.com/user/koraynilay" target="_blank" rel="noopener" role="button">
+	<a class="button button-reddit" href="https://www.reddit.com/user/koraynilay" rel="noopener" role="button">
 		<img class="icon" src="images/icons/reddit.svg" alt="">
 		<h3>Reddit</h3>
 		<h5>u/koraynilay</h5>
@@ -257,85 +399,49 @@
         
         <!-- YouTube -->
 	<!-- https://www.youtube.com/channel/UC2y4-bUutJZ5-C4kQCIT-yA -->
-	<a class="button button-yt" href="https://www.youtube.com/@koraynilay4108" target="_blank" rel="noopener" role="button">
+	<a class="button button-yt" href="https://www.youtube.com/@koraynilay4108" rel="noopener" role="button">
 		<img class="icon" src="images/icons/youtube.svg" alt="">
 		<h3>YouTube</h3>
 		<h5>@koraynilay4108</h5>
 	</a>
 	<br>
         
-        <!-- Osu!lazer -->
-	<a class="button button-osu" href="https://lazer.ppy.sh/users/12126492" target="_blank" rel="noopener" role="button">
-		<img class="icon" src="images/icons/lazer.png" alt="">
-		<h3>Osu! (but I play on osu!lazer)</h3>
-		<h5>koraynilay</h5>
+        <!-- E-mail -->
+	<a class="button button-email" href="mailto:koray.fra@gmail.com" rel="noopener" role="button">
+		<img class="icon" src="images/icons/email.svg" alt="">
+		<h3>E-mail</h3>
+		<h5>koray.fra@gmail.com</h5>
 	</a>
 	<br>
         
-        <!-- Instagram -->
-	<a class="button button-instagram" href="https://www.instagram.com/koray_nilay/" target="_blank" rel="noopener" role="button">
-		<img class="icon" src="images/icons/instagram.svg" alt="">
-		<h3>Instagram</h3>
-		<h5>koray_nilay</h5>
-	</a>
-	<br>
-        
-        <!-- GitLab -->
-	<a class="button button-gitlab" href="https://gitlab.com/koraynilay" target="_blank" rel="noopener" role="button">
-		<img class="icon" src="images/icons/gitlab.svg" alt="">
-		<h3>GitLab</h3>
-		<h5>koraynilay</h5>
-	</a>
-	<br>
-        
-        <!-- Monkeytype -->
-	<a class="button button-monkeytype" href="https://monkeytype.com/profile/koraynilay" target="_blank" rel="noopener" role="button">
-		<img class="icon" id="monkeysvg" src="images/icons/monkeytype.svg" alt="">
-		<h3>Monkeytype</h3>
-		<h5>koraynilay</h5>
-	</a>
-	<br>
-        
-        <!-- Twitter -->
-	<a class="button button-twit" href="https://twitter.com/koraynilay" target="_blank" rel="noopener" role="button">
-		<img class="icon" src="images/icons/twitter.svg" alt="">
-		<h3>Twitter</h3>
-		<h5>koraynilay</h5>
-	</a>
-	<br>
+	<div id="desc">
+		<h1>Dev stuff</h1>
+	</div>
         
         <!-- AUR packages -->
-	<a class="button button-aur" href="https://aur.archlinux.org/packages?K=koraynilay&SeB=m" target="_blank" rel="noopener" role="button">
+	<a class="button button-aur" href="https://aur.archlinux.org/packages?K=koraynilay&SeB=m" rel="noopener" role="button">
 		<img class="icon" src="images/icons/archlinux.svg" alt="">
 		<h3>AUR packages</h3>
 		<h5>koraynilay</h5>
 	</a>
 	<br>
         
-        <!-- Human Benchmark -->
-	<a class="button button-humanbenchmark" href="https://humanbenchmark.com/users/5c91039f774f3442df37b0b2" target="_blank" rel="noopener" role="button">
-		<img class="icon" src="images/icons/humanbenchmark.png" alt="">
-		<h3>Human Benchmark</h3>
+        <!-- Github -->
+	<a class="button button-github" href="https://github.com/koraynilay" rel="noopener" role="button">
+		<img class="icon" src="images/icons/github.svg" alt="">
+		<h3>Github</h3>
 		<h5>koraynilay</h5>
 	</a>
 	<br>
         
-        <!-- Telegram -->
-	<a class="button button-telegram" href="https://t.me/koraynilay" target="_blank" rel="noopener" role="button">
-		<img class="icon" src="images/icons/telegram.svg" alt="">
-		<h3>Telegram</h3>
+        <!-- GitLab -->
+	<a class="button button-gitlab" href="https://gitlab.com/koraynilay" rel="noopener" role="button">
+		<img class="icon" src="images/icons/gitlab.svg" alt="">
+		<h3>GitLab</h3>
 		<h5>koraynilay</h5>
 	</a>
 	<br>
         
-        <!-- ListenBrainz -->
-	<a class="button button-listenbrainz" href="https://listenbrainz.org/user/koraynilay/" target="_blank" rel="noopener" role="button">
-		<img class="icon" src="images/icons/listenbrainz.svg" alt="">
-		<h3>ListenBrainz</h3>
-		<h5>koraynilay</h5>
-	</a>
-	<br>
-
         <br>
         <!-- 
             Footer:
@@ -343,14 +449,22 @@
             This also includes a link to the LittleLink repository to make forking LittleLink easier.
             You can edit or remove anything here to make your own footer.
         -->
-        <p class="credits">Built with <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a>.</p>
+        <p class="credits">Built with <a href="https://littlelink.io" rel="noopener" role="button">LittleLink</a>.</p>
 
       </div>
     </div>
   </div>
 
+  <!-- Ending js -->
+  <script type="text/javascript">
+	var elems = document.getElementsByTagName("a");
+	for(e of elems) e.target = "_blank";
+	console.log(`added to ${elems.length} a tags`);
+  </script>
+
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
 </body>
 
 </html>
