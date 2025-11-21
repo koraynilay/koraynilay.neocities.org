@@ -42,3 +42,8 @@ ul.info > li > ul.info {
 .info-name {
     color: red;
 }
+
+.column {
+    float: left;
+    width: 50%;
+}
