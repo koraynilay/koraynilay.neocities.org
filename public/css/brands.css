@@ -1133,3 +1133,13 @@ svg {
 .button.button-geekbench:focus {
   filter: brightness(90%);
 }
+
+/* GnuPG/GPG/OpenPGP */
+.button.button-gpg {
+  color: #ffffff;
+  background-color: #444444;
+}
+.button.button-email:hover,
+.button.button-email:focus {
+  filter: brightness(90%);
+}
