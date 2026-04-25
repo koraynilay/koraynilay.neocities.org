@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
+
 @font-face {
     font-family: "Tw Cen MT";
     src: url("https://github.com/koraynilay/linux-wallpapers/blob/master/tw-cen-mt-1361501946.ttf?raw=true") format('truetype');
@@ -7,6 +9,10 @@
 
 body {
     font-family: "Tw Cen MT"
+}
+
+.monospace, c {
+    font-family: 'Anonymous Pro', monospace !important;
 }
 
 #desc, #title {
