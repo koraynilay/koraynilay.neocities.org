@@ -6,6 +6,10 @@
     /*image-rendering: pixelated;*/
 }
 
+body {
+    font-family: "Tw Cen MT"
+}
+
 #desc, #title {
     color: white;
     text-shadow: 1px 1px black;
