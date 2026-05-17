@@ -51,3 +51,20 @@ ul.info > li > ul.info {
 .info-name {
     color: red;
 }
+
+/* Two-column layout for larger screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px !important;
+    }
+
+    .two-columns {
+        display: flex;
+	align-items: flex-start;
+    }
+
+    .two-columns > div {
+        flex: 1;
+        min-width: 0;
+    }
+}

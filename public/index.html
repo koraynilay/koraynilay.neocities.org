@@ -55,7 +55,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="column" style="margin-top: 10%">
+      <!-- header -->
+      <div class="column" style="margin-top: 60px"> <!-- 60px is 10% of default max-width of 600px now that we have 2 columns on large screens it becomes 1200px so 10% isn't correct anymore -->
 
         <!-- 
 
@@ -81,6 +82,10 @@
 
         <!-- Title -->
         <h1 id="title" role="heading">koraynilay's stuff</h1>
+      </div>
+
+      <div class="two-columns">
+      <div> <!-- bio -->
 
         <!-- Short Bio -->
 	<!--<p class='desc'>something - INTP 5w6 sp/sx</p>-->
@@ -328,7 +333,7 @@
 				</ul>
 			</li>
 		</ul>
-	</div>
+	</div> <!-- id="desc" -->
 
 
 	<br />
@@ -338,6 +343,9 @@
 			document.getElementsByClassName("avatar")[0].href = 'https://www.youtube.com/watch?v=lpiB2wMc49g';
 		}
 	</script>
+
+      </div> <!-- close bio -->
+      <div> <!-- links -->
 
         <!--
 
@@ -548,7 +556,12 @@
 		<h5>koraynilay</h5>
 	</a>
 	<br>
-        
+      </div> <!-- close links -->
+      </div> <!-- close class="two-columns" -->
+
+    </div> <!-- close class="row" -->
+
+    <div class="row">
         <br>
         <!-- 
             Footer:
@@ -558,10 +571,8 @@
         -->
         <p class="credits"><a href="https://github.com/koraynilay/koraynilay.neocities.org" rel="noopener" role="button">See source on Github</a>.
 	<br>Built with <a href="https://littlelink.io" rel="noopener" role="button">LittleLink</a>.</p>
-
-      </div>
-    </div>
-  </div>
+    </div> <!-- close class="row" -->
+  </div> <!-- close class="container" -->
 
   <!-- Ending js -->
   <script type="text/javascript">
