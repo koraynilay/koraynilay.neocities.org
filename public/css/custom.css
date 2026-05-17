@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Tw Cen MT";
-    src: url("https://github.com/koraynilay/linux-wallpapers/blob/master/tw-cen-mt-1361501946.ttf?raw=true") format('truetype');
+    src: url("../fonts/tw-cen-mt-1361501946.ttf") format('truetype');
     /*color:#ffffff;*/
     /*image-rendering: pixelated;*/
 }
