@@ -1139,7 +1139,7 @@ svg {
   color: #ffffff;
   background-color: #444444;
 }
-.button.button-email:hover,
-.button.button-email:focus {
+.button.button-gpg:hover,
+.button.button-gpg:focus {
   filter: brightness(90%);
 }
