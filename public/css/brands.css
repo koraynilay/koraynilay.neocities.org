@@ -551,7 +551,7 @@ button:hover,
 .button.button-mastodon {
   color: #ffffff;
   background-color: #17063B;
-  border: 1px solid #FFFFFF;
+  /*border: 1px solid #FFFFFF;*/
 }
 .button.button-mastodon:hover,
 .button.button-mastodon:focus {
