@@ -1157,7 +1157,8 @@ svg {
 /* Lemmy */
 .button.button-lemmy {
   color: #ffffff;
-  background-color: #207020;
+  /*background-color: #e54c53;*/
+  background-color: #121212;
 }
 .button.button-lemmy:hover,
 .button.button-lemmy:focus {
