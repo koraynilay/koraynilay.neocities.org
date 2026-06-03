@@ -197,7 +197,7 @@ button:hover,
 .button.button-bluesky {
   color: #000000;
   background-color: #F3F9FF;
-  border: 1px solid #212121;
+  /*border: 1px solid #212121;*/
 }
 .button.button-bluesky:hover,
 .button.button-bluesky:focus {
@@ -668,7 +668,7 @@ button:hover,
 .button.button-reddit {
   color: #fff;
   background-color: #ff4500;
-  border: 1px solid #212121;
+  /*border: 1px solid #212121;*/
 }
 .button.button-reddit:hover,
 .button.button-reddit:focus {
@@ -1141,5 +1141,25 @@ svg {
 }
 .button.button-gpg:hover,
 .button.button-gpg:focus {
+  filter: brightness(90%);
+}
+
+/* Matrix */
+.button.button-matrix {
+  color: #000000;
+  background-color: #ffffff;
+}
+.button.button-matrix:hover,
+.button.button-matrix:focus {
+  filter: brightness(90%);
+}
+
+/* Lemmy */
+.button.button-lemmy {
+  color: #ffffff;
+  background-color: #207020;
+}
+.button.button-lemmy:hover,
+.button.button-lemmy:focus {
   filter: brightness(90%);
 }
