@@ -550,7 +550,7 @@
 	</div>
 
         <!-- GPG key -->
-	<a class="button button-gpg monospace" href="/koraynilay.asc" rel="noopener" role="button">
+	<a class="button button-gpg monospace" href="koraynilay.asc" rel="noopener" role="button">
 		<img class="icon" src="images/icons/gnupg.svg" alt="">
 		<h3>GPG Key</h3>
 		<h5>koraynilay</h5>
@@ -594,14 +594,19 @@
             You can edit or remove anything here to make your own footer.
         -->
         <p class="credits"><a href="https://github.com/koraynilay/koraynilay.neocities.org" rel="noopener" role="button">See source on Github</a>.
-	<br>Built with <a href="https://littlelink.io" rel="noopener" role="button">LittleLink</a>.</p>
+	<br>Built with <a href="https://littlelink.io" rel="noopener" role="button">LittleLink</a>.
+	<br><a href="privacy.html" id="privacy">Privacy Policy</a> (dw there's not much in here).</p>
     </div> <!-- close class="row" -->
   </div> <!-- close class="container" -->
 
   <!-- Ending js -->
   <script type="text/javascript">
 	var elems = document.getElementsByTagName("a");
-	for(e of elems) e.target = "_blank";
+	for(e of elems) {
+		if (e.classList.contains('button-gpg')) continue;
+		if (e.id.contains('privacy')) continue;
+		e.target = "_blank";
+	}
 	console.log(`added to ${elems.length} a tags`);
   </script>
 
